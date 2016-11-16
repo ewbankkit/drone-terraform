@@ -6,7 +6,7 @@
 FROM gliderlabs/alpine:3.2
 RUN apk-install ca-certificates git
 
-ENV TERRAFORM_VERSION 0.7.7
+ENV TERRAFORM_VERSION 0.7.11
 
 RUN apk update && \
     wget -q "https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.21-r2/glibc-2.21-r2.apk" && \
